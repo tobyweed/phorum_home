@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Baskerville', sans-serif;
 	font-weight: 200;
 }
 
@@ -12,35 +12,23 @@ body h1 {
 }
 
 body p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Baskerville', sans-serif;
 	font-weight: 200;
 }
 
 body h4 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Baskerville', sans-serif;
 	font-weight: 200;
 }
 
 body h5 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Baskerville', sans-serif;
 	font-weight: 200;
-}
-
-.background-image {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .background-colored {
 	background-attachment: fixed;
-	background-color: #222;
-}
-
-.layer {
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: #19323c;
 }
 
 .resp-layer {
@@ -78,8 +66,9 @@ h1 {
 #landing {
 	height: 100%;
 	top: 0;
-	background-image: url('/pics/mtn1.JPG');
+	background-color: #19323C
 	background-position: 50% 10%;
+
 	text-align: center;
 	color: black;
 }
@@ -90,12 +79,12 @@ h1 {
 }
 
 #landing .content #top-landing {
-	height: 40%;
+	height: 35%;
 }
 
 #landing .content #mid-landing {
-	height: 45%;
-	text-align: center;
+	height: 52%;
+	text-align: left;
 }
 
 #landing .content .logo-background {
@@ -105,20 +94,19 @@ h1 {
 }
 
 #landing .content .logo {
-	width: 420px;
-	height: 115px;
+	width: 480px;
+	/* height: 115px; */
 	overflow: hidden;
 
 	color: white;
 	font-size: 1em;
 
 	display: inline-block;
-	padding: 10px 0 10px;
+	padding: 0px 0px 0px 40px;
 	margin: 0 auto;
 }
 
 #landing .content .logo h1 {
-	border: solid 2px white;
 	height: 75px;
 	padding: 5px 10px 5px 10px;
 }
@@ -129,7 +117,7 @@ h1 {
 	margin: 0 20px 0 20px;
 	font-weight: 200;
 	text-align: justify;
-	height: 80px;
+	/* height: 80px; */
 }
 
 #landing .content .logo h1:after {
@@ -141,27 +129,25 @@ h1 {
 #landing .content .logo p {
 	margin: 0 20px 0 20px;
 	width: 90%;
-	text-align: justify;
+	/* text-align: justify; */
 	/*font-weight: 400;*/
 }
 
-#landing .content .logo p:after {
-	content: '';
-	display: inline-block;
-	width: 100%;
+#landing .landing {
+	text-align: center;
+	border: none;
 }
 
-#landing .circular:hover {
+#landing .landing:hover {
 	background-color: white;
 	color: rgba(0, 0, 0, 0);
 }
 
-#landing .circular:link,
-.circular:visited {
+#landing .landing:link,
+.landing:visited {
 	position: relative;
 	bottom: 0;
 
-	border-radius: 50%;
 	height: 50px;
 	width: 50px;
 	display: inline-block;
@@ -170,7 +156,6 @@ h1 {
 	margin: 0 auto;
 
 	color: white;
-	border: solid white 1px;
 }
 
 /*============================================== THUMBNAIL GALLERIES =================================================*/
